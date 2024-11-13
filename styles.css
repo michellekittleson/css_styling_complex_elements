@@ -1,0 +1,83 @@
+#image_gallery img {
+    height: 300px;
+    width: 225px;
+}
+
+#about_me img {
+    height: 300px;
+    width: auto;
+}
+
+a {
+    color: rosybrown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+img {
+    border: none;
+}
+
+img:hover {
+    border: 5px solid crimson;
+}
+
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+    
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+button:hover {
+    color: aqua;
+}
+
+textarea {
+    width: 100%;
+}
+
+label {
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+}
+
+ul {
+    background-color: black;
+}
+
+table tr:hover {
+    background-color: rosybrown;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
