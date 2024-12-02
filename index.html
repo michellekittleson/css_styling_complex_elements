@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michelle Kittleson's Cake Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Michelle's Cake Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
 </head>
 <body>
-    <h1>Michelle Kittleson's Cake Page</h1>
+    <h1 class="display-3 text-center">Michelle's Cake Page</h1>
     <header id="home">
         <nav>
             <ul>
@@ -27,71 +30,96 @@
 
         <section id="about_me">
             <h3>About Me</h3>
-            <img src="./profile.png" alt="photo of Michelle Kittleson">
-            <img src="superbowl_cake.png" alt="SuperBowl Cake">
-            <img src="pride_cake.png" alt="Pride Celebration Cake">
 
             <p>My interest in decorating cakes began in 2001, when I started the tradition of a Super Bowl cake. This was my only real cake endeavor until summer 2019, when I made a rainbow explosion cake to bring to a Pride celebration. Since then, I've enjoyed making and decorating cakes to celebrate the special occasions of friends and family.
             </p>
         </section><br>
 
         <section id="image_gallery" class="color">
-            <h3>Image Gallery</h3>
-            <img src="blue_cake.png" alt="Blue Birthday Cake">
-            <img src="fish_cake.png" alt="Fish Themed Birthday Cake">
-            <img src="graduation_cake.png" alt="Teal Themed Graduation Cake">
-            <img src="nye_cake.png" alt="Navy and Rose Gold New Year's Eve Cake">
-            <img src="piano_cake.png" alt="Piano & Gong Themed Birthday Cake">
-            <img src="retirement_cake.png" alt="Tropical Themed Retirement Cake">
-            <img src="sagittarious_cake.png" alt="'Bitch I'm a Sagittarious' Cake">
-            <img src="wedding_cake.png" alt="Wedding Cake with Rainbow Flowers">
+            <h3 class="display-4">Image Gallery</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="blue_cake.png" alt="Blue Birthday Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="fish_cake.png" alt="Fish Themed Birthday Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="graduation_cake.png" alt="Teal Themed Graduation Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="nye_cake.png" alt="Navy and Rose Gold New Year's Eve Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="piano_cake.png" alt="Piano & Gong Themed Birthday Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="retirement_cake.png" alt="Tropical Themed Retirement Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="sagittarious_cake.png" alt="'Bitch I'm a Sagittarious' Cake">
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <img class="img-fluid" src="wedding_cake.png" alt="Wedding Cake with Rainbow Flowers">
+                    </div>
+                </div>
+            </div>
         </section><br>
 
         <section>
-            <table>
-                <tr>
-                    <th>Cake Name</th>
-                    <th>Year of Creation</th>
-                </tr>
-                <tr>
-                    <td>Blue Birthday Cake</td>
-                    <td>August 2023</td>
-                </tr>
-                <tr>
-                    <td>Fish Themed Birthday Cake</td>
-                    <td>February 2024</td>
-                </tr>
-                <tr>
-                    <td>Teal Graduation Cake</td>
-                    <td>May 2024</td>
-                </tr>
-                <tr>
-                    <td>Navy & Rose Gold New Year's Eve Cake</td>
-                    <td>December 2019</td>
-                </tr>
-                <tr>
-                    <td>Piano & Gong Themed Birthday Cake</td>
-                    <td>August 2019</td>
-                </tr>
-                <tr>
-                    <td>Tropical Retirement Cake</td>
-                    <td>July 2024</td>
-                </tr>
-                <tr>
-                    <td>"Bitch I'm a Sagittarious" Cake</td>
-                    <td>December 2023</td>
-                </tr>
-                <tr>
-                    <td>Wedding Cake with Rainbow Flowers</td>
-                    <td>August 2022</td>
-                </tr>
+            <table class="table text-dark table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Cake Name</th>
+                        <th>Year of Creation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blue Birthday Cake</td>
+                        <td>August 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Fish Themed Birthday Cake</td>
+                        <td>February 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Teal Graduation Cake</td>
+                        <td>May 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Navy & Rose Gold New Year's Eve Cake</td>
+                        <td>December 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Piano & Gong Themed Birthday Cake</td>
+                        <td>August 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Tropical Retirement Cake</td>
+                        <td>July 2024</td>
+                    </tr>
+                    <tr>
+                        <td>"Bitch I'm a Sagittarious" Cake</td>
+                        <td>December 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Wedding Cake with Rainbow Flowers</td>
+                        <td>August 2022</td>
+                    </tr>
+                </tbody>
+
             </table>
         </section><br><br>
 
-        <button><a href="form.html">Contact</a></button><br>
-        <button><a href="registration.html">User Registration</a></button>
         
-
     </main>
+
+    <footer>
+        <div class="container">
+            <button type="button" class="btn btn-secondary"><a href="form.html">Contact</a></button><br>
+        </div>
+    </footer>
 </body>
 </html>
